@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.book{
+	@apply px-28 ml-2 py-4 rounded-lg bg-blue-900 text-white font-bold tracking-widest hover:bg-white hover:text-black border border-blue-800;
+}
 .button {
-	@apply bg-pink-500 px-5 py-2 rounded transition;
+	@apply bg-pink-500 px-5 py-2 rounded transition hover:text-white;
 }
 .buttonlog {
-	@apply bg-green-400 px-5 py-2 rounded transition font-mono text-white ;
+	@apply bg-green-400 px-4 py-2 rounded transition font-mono text-white  tracking-widest ;
 }
 .router-link-active{
-    @apply border-4
+    @apply  border-green-500 text-green-500 border-b-4;
 }
 .nav-item{
- @apply py-4 px-2  text-gray-600 hover:text-green-500 transition hover:border-b-4 hover:border-green-500;
+ @apply py-4 px-2  text-gray-600 hover:text-green-500 transition  hover:border-green-500 ;
 
 }
